@@ -1,0 +1,43 @@
+1) Category
+Title=Char()
+status=Boolean
+
+
+2) Question
+   category=Fk Category
+   question = CharField()
+   answer=text field
+   status = Boolean
+   added_data =Datatime
+   voting = int()
+
+
+3) Comments  
+   Question_id=Fk Question
+   comment = char()
+   image=ImageField()
+   added_data=Datatime()
+
+4)Voting   
+  Question_id=Fk Question
+  voting=int()
+
+5)Templates HTML Pages
+1. Home Pages
+1.1 Banner
+1.2 Recent 5 Questions list
+1.3 Navigation will have Categories
+
+2)Question List for the category
+1.Question list
+
+3)Question View
+1.Question as title
+2.list of the answers
+3.comments on the answers
+
+4)Login
+5)Registration
+6)About us page
+7)Profile page
+8)Contact
